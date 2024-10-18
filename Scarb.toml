@@ -1,0 +1,11 @@
+[package]
+name = "game_contract"
+version = "0.1.0"
+edition = "2024_07"
+
+[dependencies]
+# Use the latest Starknet and Cairo versions
+starknet = "2.8.4"  # Match with your cairo_test version
+
+[dev-dependencies]
+cairo_test = "2.8.4"
